@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Included Global Variables and Functions
+@import "cu_variables";
+@import "core/functions";
+
+:root,
+#root {
+    @each $name, $color in $base-colors {
+        --color-#{$name}: #{$color};
+    }
+}

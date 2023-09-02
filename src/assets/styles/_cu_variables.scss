@@ -1,0 +1,37 @@
+@use 'sass:math';
+
+$font-url: '/src/assets/fonts';
+
+///////// COLORS ///////////
+$white:		#fff;
+$black: 	#000;
+
+$base-color:    #364a63;
+
+$base-colors: (
+    'primary-light': #0A6836,
+    'primary-dark': #003565,
+    'primary-80': #136DBE,
+    'primary-60': #2886DB,
+    'primary-40': #57ADFC,
+    'primary-20': #8BC8FF,
+    'primary-10': #B1DAFF,
+    'primary-5': #D8ECFF,
+    'secondary-light': #10BED2,
+    'secondary-dark': #098B9A,
+    'secondary-80': #3ED3E4,
+    'secondary-60': #50E3F3,
+    'secondary-40': #89F3FF,
+    'secondary-20': #C1F9FF,
+    'secondary-10': #D6FBFF,
+    'secondary-5': #EFFDFF,
+    'ink-light': #272B2F,
+    'ink-80': #525560,
+    'ink-60': #6C778D,
+    'ink-40': #ADACAC,
+    'ink-20': #D4D4D4, /* :) */
+    'ink-10': #F0F3F8,
+    'ink-5': #F9FBFF,
+    'error-bg': #FFDCDC,
+    'error-dark': #E93C3C,
+);
