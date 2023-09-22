@@ -17,11 +17,15 @@ import Typography from '@mui/material/Typography';
 
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-  '& .MuiDialogContent-root': {
-    padding: theme.spacing(2),
+  "& .MuiDialogContent-root": {
+    padding: 0,
+    border: 0,
   },
   '& .MuiDialogActions-root': {
     padding: theme.spacing(1),
+  },
+  "& .MuiDialog-paper": {
+    maxWidth: "fit-content",
   },
 }));
 
